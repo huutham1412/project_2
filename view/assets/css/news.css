@@ -1,0 +1,52 @@
+.news-item a {
+  display: block;
+}
+.news-img {
+  width: 95%;
+  height: 65%;
+  object-fit: cover;
+  border-radius: 20px 0;
+}
+
+.news-title {
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.news-title:hover {
+  color: red;
+}
+
+.news-intro {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+/* SINGLE NEWS */
+.single-news-wrapper {
+  margin-top: 100px;
+}
+
+.single-news-wrapper img {
+  width: 45%;
+  height: 40%;
+  margin: 0 30%;
+  border-radius: 20px 0;
+}
+.text{
+  font-size: 25px;
+}
+.titles{
+  color: red;
+  font-size: 40px;
+  font-weight: 650;
+  text-align: center;
+}
+.intro{
+  margin: 20px 0;
+  font-size: 31px;
+}
